@@ -37,3 +37,7 @@ virtualenv --no-site-packages -p python3.7 sdg_env
 source sdg_env/bin/activate
 pip install -r setup/requirements.txt
 python -m ipykernel install --user --name zindi_sdg
+
+source sdg_env2/bin/activate
+pip install -r setup/requirements2.txt
+python -m ipykernel install --user --name zindi_sdg_tf
